@@ -2832,6 +2832,24 @@ input, select, textarea {
 				color: #c8ece9;
 			}
 
+                       /* Third page */
+.wrapper.style1 third {
+  padding: 40px 10px;
+  padding-left: 30%;
+  background-image: url('../img/bg3.png');
+  background-size: cover;
+  color: white;
+}
+
+.wrapper-invitation {
+  text-align: center;
+  line-height: 50px;
+}
+
+.wrapper-invitation-text { font-weight: bold; }
+
+.wrapper-invitation-text-date { font-size: 38px; }
+
 			.wrapper.style1 label {
 				color: #ffffff;
 			}
