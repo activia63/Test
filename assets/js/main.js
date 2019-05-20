@@ -79,5 +79,64 @@
 			});
 
 		}
+	
+	//Function.
+	function setGuests() {
+  var guestId = +window.location.search.substr(4)
+  var guests = guestArr[guestId] || guestArr[0]
+  var dearEl = document.getElementById('dear')
+  var guestEl1 = document.getElementById('guest1')
+  var guestEl2 = document.getElementById('guest2')
+  var guestEl3 = document.getElementById('guest3')
+  var delim1 = document.getElementById('delim1')
+  var delim2 = document.getElementById('delim2')
+  var you = document.getElementById('you')
+  if (guests.names.length > 1) {
+    dearEl.textContent  = 'Дорогие'
+    you.textContent = 'вас'
+    for (var j=0; j < guests.names.length; j++) {
+      if (j == 0 && guests.names.length === 1) {
+        guestEl1.textContent  = ''
+        guestEl2.textContent  = ''
+        guestEl3.textContent  = guests.names[j]
+      } else if (j == 0 && guests.names.length === 2) {
+        guestEl1.textContent  = ''
+        guestEl2.textContent  = guests.names[j]
+        delim2.textContent  = 'и'
+      } else if (j == 0 && guests.names.length === 3) {
+        guestEl1.textContent  = guests.names[j]
+        delim1.textContent  = ','
+      } else if (j === 1 && guests.names.length === 2) {
+        guestEl3.textContent  = guests.names[j]
+      } else if (j === 1 && guests.names.length === 3) {
+        guestEl2.textContent  = guests.names[j]
+        delim2.textContent  = 'и'
+      } else if (j === 2) {
+        guestEl3.textContent  = guests.names[j]
+      }
+    }
+  } else {
+    if (guests.names[0] == 'Лера' ||
+        guests.names[0] == 'Аня' ||
+        guests.names[0] == 'Оля' ||
+        guests.names[0] == 'Маша' ||
+        guests.names[0] == 'Александра') {
+      dearEl.textContent  = 'Дорогая'
+      you.textContent = 'тебя'
+    } else if (guests.names[0] == 'Вова' ||
+               guests.names[0] == 'Коля' ||
+               guests.names[0] == 'Максим' ||
+               guests.names[0] == 'дедушка Ваня') {
+      dearEl.textContent  = 'Дорогой'
+      you.textContent = 'тебя'
+    } else {
+      dearEl.textContent  = 'Дорогие'
+      you.textContent = 'вас'
+    }
+    guestEl1.textContent  = ''
+    guestEl2.textContent  = ''
+    guestEl3.textContent  = guests.names[0]
+  }
+}
 
 })(jQuery);
