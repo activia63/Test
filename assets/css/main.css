@@ -3865,6 +3865,32 @@ background-color: #11ffee00
 		background-attachment: scroll;
 	}
 
+/* Sixth page */
+  .sixth {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sixth-map-pc { display: none; }
+
+  .sixth-map-mob {
+    display: initial;
+    align-self: center;
+    -webkit-align-self: center;
+    margin: 0 auto;
+  }
+
+  .sixth-desc {
+    margin: 20px 10px 0 10px;
+    text-align: center;
+    line-height: 40px;
+  }
+}
+
+
 /* Footer */
 
 	#footer {
