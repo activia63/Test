@@ -3760,8 +3760,8 @@ background-color: #11ffee00
 			order: 2;
 			width: 30%;
 		}
-#cta .inner .sixth {
-.sixth {
+#cta .inner { 
+.inner {
     flex-direction: column;
     -webkit-flex-direction: column;
     padding: 0;
@@ -3769,16 +3769,16 @@ background-color: #11ffee00
     align-items: center;
   }
 
-  .sixth-map-pc { display: none; }
+  .inner -map-pc { display: none; }
 
-  .sixth-map-mob {
+  .inner -map-mob {
     display: initial;
     align-self: center;
     -webkit-align-self: center;
     margin: 0 auto;
   }
 
-  .sixth-desc {
+  .inner -desc {
     margin: 20px 10px 0 10px;
     text-align: center;
     line-height: 40px;
