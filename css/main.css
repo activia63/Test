@@ -3976,3 +3976,26 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+/* STYLES FOR DESKTOP */
+	body {
+	  margin: 0;
+	  font-size: 30px;
+	  line-height: 50px;
+	  font-family: Pilgiche;
+	}
+	h1 {
+	  font-family: Georgia Italic;
+	  font-weight: 100;
+
+/* STYLES FOR MOBILE */
+	@media screen and (max-device-width: 670px) {
+	  body {
+	    font-size: 24px;
+	    line-height: 50px;
+	  }
+	.br-pc { display: none; }
+	  p {
+	    -webkit-margin-before: 20px;
+	    -webkit-margin-after: 20px;
+	  }
+	h1 { line-height: 50px; }
