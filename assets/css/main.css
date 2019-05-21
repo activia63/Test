@@ -2978,8 +2978,8 @@ background-color: #11ffee00
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
-			color: #d3d4e4;
+			background-color: /*#505393;*/ #ffff;
+			color: /*#d3d4e4;*/ #000000;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
