@@ -3769,7 +3769,7 @@ background-color: #11ffee00
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		max-width: 45em;
+		/*max-*/width: /*45em;*/ 50%;
 	}
 
 		#cta .inner header {
