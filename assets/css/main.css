@@ -2983,7 +2983,7 @@ background-color: #11ffee00
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
-				color: #ffffff;
+				color: /*#ffffff;*/ #000000;
 			}
 
  .wrapper.slyle3 special {
@@ -3001,7 +3001,7 @@ background-color: #11ffee00
 
 
 			.wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
-				color: #ffffff;
+				color: /*#ffffff;*/ #000000;
 			}
 
 			.wrapper.style3 hr {
