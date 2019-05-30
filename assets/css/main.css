@@ -2679,6 +2679,8 @@ input, select, textarea {
 			/*background-image: url ("test/img/23.png")*/;
 			
 			}
+.rightpic {
+    float: right;
 
 		.spotlight:nth-child(2) {
 			background-color: rgba(0, 0, 0, 0.15);*/;
