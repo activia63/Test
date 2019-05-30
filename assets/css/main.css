@@ -2672,21 +2672,36 @@ input, select, textarea {
 			order: 2;
 			max-width: 48em;
 			width: /*60%;*/ 50%;
-		}
+		       }
 
-		.spotlight:nth-child(2n) {
+                .spotlight:nth-child(1) {
+			/*background-color: rgba(0, 0, 0, 0.075)*/ 
+			background-image: url ("test/img/23.png");
+			
+			}
+
+		.spotlight:nth-child(2) {
+			/*background-color: rgba(0, 0, 0, 0.15);*/;
+			background-image: url ("test/img/27.png");
+			/* background-color: white; */
+			/* text-shadow: 0 0 black; */
+			/* text-shadow: 0 0 black; */
+			/* box-shadow: 0 0 black; */
+			/* background-color: white; */
+	
+		/*.spotlight:nth-child(2n) {
 			-moz-flex-direction: row-reverse;
 			-webkit-flex-direction: row-reverse;
 			-ms-flex-direction: row-reverse;
-			flex-direction: row-reverse;
+			flex-direction: row-reverse;*/
 		}
 
-		.spotlight:nth-child(1) {
+		/*.spotlight:nth-child(1) {
 			background-color: rgba(0, 0, 0, 0.075);
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			background-color: rgba(0, 0, 0, 0.15);*/
 		}
 
 		.spotlight:nth-child(3) {
